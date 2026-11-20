@@ -1,0 +1,12 @@
+{
+  "name": "farm-advisor-agents",
+  "version": "0.1.0",
+  "description": "Read-only multi-agent decision support for farm management",
+  "private": true,
+  "engines": { "node": ">=22" },
+  "main": "src/advisor.js",
+  "scripts": {
+    "demo": "node examples/demo.js",
+    "test": "node --test"
+  }
+}
