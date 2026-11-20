@@ -4,6 +4,14 @@ A standalone, read-only multi-agent system for farm decision support, extracted 
 
 把“接下来两天先做什么”拆成三个问题：这季花了多少，已经做过哪些农活，当前作物和雨情支持什么安排。总管让三个专家分别查证，再汇总优先事项、依据与缺口。
 
+## 田祖记 · 商业版
+
+**田祖记**是农事参谋在微信小程序里的商业产品实现。本仓库只保留可独立运行的只读多智能体决策内核；小程序还提供地块与种植季管理、农事日志和农业账本。参谋可以结合用户的记录给建议，也能帮用户起草农活或费用记录，由用户确认后保存。
+
+**微信扫一扫海报右下角的小程序码，打开田祖记正式版。**
+
+![田祖记商业版海报，右下角为正式版微信小程序码](assets/tianzuji-poster.png)
+
 ## Quick start
 
 Requirements: Node.js 22+ and, for live inference, a [DeepSeek API key and a tool-calling model](https://api-docs.deepseek.com/api/create-chat-completion).
